@@ -1,11 +1,17 @@
 package edu.escuelaing.arep.app;
+import edu.escuelaing.arep.stat.Stat;
 
 import static spark.Spark.*;
 public class App
 {
         public static void main(String[] args) {
         port(getPort());
-        get("/hello", (req, res) -> "Hello Heroku");
+        staticFiles.location("/public");
+        post("/stat" , (request, response) -> {
+            Stat calculator = new Stat();
+            calculator.readJson(request.body());
+            return "{\"mean\":" + calculator.mean() + ", \"stddev\":" + calculator.stddev() + "}";
+        });
     }
 
         static int getPort() {
