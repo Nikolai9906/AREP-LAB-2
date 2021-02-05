@@ -25,6 +25,10 @@ Para generar javadoc de las pruebas: ```mvn javadoc:test-javadoc```
 # Integracion Continua
 [![CircleCI](https://circleci.com/gh/Nikolai9906/AREP-LAB-2.svg?style=svg)](https://circleci.com/gh/Nikolai9906/AREP-LAB-2)
 
+# Despliegue Heroku
+
+https://warm-inlet-01806.herokuapp.com
+
 ## Operaciones
 - Media: Calcula la media de una lista de n números ingresados por consola o por medio de un archivo.
 - Desviación estándar: Calcula la desviación estándar de una lista de n números ingresados por consola o por medio de un archivo.
@@ -134,5 +138,3 @@ Steven Nikolai Bermudez Vega - Trabajo Programación AREP 01/28/2021
 ## Licencia
 Este programa es de uso libre, puede ser usado por cualquier persona.
 
-
-https://warm-inlet-01806.herokuapp.com
