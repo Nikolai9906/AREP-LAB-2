@@ -7,24 +7,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/client.js"></script>
     <script src="js/app.js"></script>
-    <title>Title</title>
+    <title>Calculator</title>
 </head>
 <body>
     <div class ="stat" name="calculator">
-        <h3>Calculadora</h3>
-            <p>Ingresar datos con comas</P>
-        <input id = "capture" type="textfield" name=\"data\" value="">
+        <h3>Calculator</h3>
+            <p class = "Title">Write numbers and separate them with ","</P>
+        <input id = "capture" type="boxField" name=\"data\" value="">
         <br>
             <input type="submit" value="Calculate" onClick="app.captureData()">
         <br>
         <br>
-        <div>
-            mean: <div id= "mean" style = "display: inline-block";>	</div>
+        <div class = "answer">
+            MEAN: <div id= "mean" style = "display: inline-block";>	</div>
             <br>
-            stdv: <div id= "stddev" style = "display: inline-block";>	</div>
+            STDDEV: <div id= "stddev" style = "display: inline-block";>	</div>
         </div>
-
     </div>
-
 </body>
 </html>

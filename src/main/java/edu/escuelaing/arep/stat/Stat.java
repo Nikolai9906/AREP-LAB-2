@@ -95,13 +95,11 @@ public class Stat {
 
     public LinkedList readJson(String jsonDoc){
         data = new LinkedList();
-        System.out.println(jsonDoc);
         String[] jList = jsonDoc.replace("\"", "").replace("]", "").replace("[", "").split(",");
         for (int i = 0; i < jList.length; i++){
             double value = Double.parseDouble(jList[i]);
             data.addFirst(value);
         }
-        System.out.println(data);
         return data;
     }
 }
