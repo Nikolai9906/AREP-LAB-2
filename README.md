@@ -12,7 +12,7 @@ Conocimientos básicos sobre estadística, media, mediana y desviación estánda
 ## Comandos
 Para compilar y correr las pruebas: ```mvn package```
 
-Para ejecutar y utilizar el programa: ```java -cp target/arep-lab-1-1.0-SNAPSHOT.jar edu.escuelaing.arep.app.App```
+Para ejecutar y utilizar el programa: ```mvn exec:java -Dexec.mainClass="edu.escuelaing.arep.app.App```
 
 Para ejecutar las pruebas: ```mvn test```
 
