@@ -2,7 +2,7 @@
   width: 100%;
   margin: auto;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 3%;
 
 }
 body {
@@ -27,6 +27,8 @@ p.Title {
 }
 .answer{
     font-family: Arial, Helvetica, Arial, sans-serif;
+    font-weight: 900;
+
 }
 
 input[type=boxField] {
